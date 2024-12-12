@@ -26,10 +26,11 @@ To check logs, use the below command
 
 5th Command `journalctl -u nexus.service -f -n 50`
 
-4 
+4
 Now open terminal and use the below command
-sed -i 's/.*/YOUR_PROVER_ID/' .nexus/prover-id
+6command `sed -i 's/.*/YOUR_PROVER_ID/' .nexus/prover-id`
+
 Make sure to replace YOUR_PROVER_ID with the value u copied earlier (Example : sed -i 's/.*/P2Fn8XlXjuWr8yeoJvE6bi2iP1I3/' .nexus/prover-id)
 Now restart the nexus.service using below command
 
-`  sudo systemctl restart nexus.service`
+7command `udo systemctl restart nexus.service`
